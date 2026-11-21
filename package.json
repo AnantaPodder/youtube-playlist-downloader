@@ -1,0 +1,14 @@
+{
+  "name": "youtube-playlist-downloader",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Local Tailwind UI for downloading YouTube playlists with yt-dlp",
+  "scripts": {
+    "build:css": "tailwindcss -i ./web/src/input.css -o ./web/app.css --minify",
+    "watch:css": "tailwindcss -i ./web/src/input.css -o ./web/app.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
